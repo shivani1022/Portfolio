@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>SHIVANI KADAM</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/335e8fb3e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img scr="images/logo.png" class="logo"></img>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>DATA  ANALYST</p>
+                <h1>Hi I'm <span>Shivani</span><br>Kadam From Mumbai</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mobilebgimg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>
+                        Hello! My name is Shivani Kadam and currently I am pursuing Bachelor degree 
+                        in information technology (IT). Looking for opportunities to develop and
+                        hone my skills as a Data Analyst/BI Analyst/Data Scientist.
+                        I'm passionate about using data to solve business-related problems. 
+                        I have focused my career path and academic pursuits on learning and
+                        developing those all-important skills necessary to be a great fit.<br>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('internships')">Internships</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span>SQL</span><br>Data Management & ETL Process</li>
+                            <li><span>Excel</span><br>File Handling</li>
+                            <li><span>Python</span><br>Machine Learning & Building Models</li>
+                            <li><span>Data Visulization</span><br>Power BI & Tableau</li>
+                            <li><span>OOP</span><br>Basics of java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="internships">
+                        <ul>
+                            <li><span>June 2022</span><br>Duration- 3 Months<br>PHN Technology pvt. ltd.<br>Machine Learning & Data Science</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>81.30%</span><br>BE in Information Technology<br>PHCET 2024</li>
+                            <li><span>89.89%</span><br>DIPLOMA in Computer Technology<br>Government Polytechnic Pen<br>2021</li>
+                            <li><span>89.20%</span><br>SSC 2018</li>
+                        
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/mywork1.png">
+                    <div class="layer">
+                        <h3>NLP tracker:comment toxicity detection</h3>
+                        <p>The goal is to build a model that can accurately predict whether a given comment contains toxic content.</p>
+                        <a href="https://www.linkedin.com/posts/shivani-kadam-_python-deeplearning-tensorflow-activity-7112432030138707968-F7Fm?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork2.png">
+                    <div class="layer">
+                        <h3>Music Dataset Analysis using SQL</h3>
+                        <p>This project has been an exhilarating exploration into the harmonies of data, aimed at uncovering valuable insights within the realm of music.</p>
+                        <a href="https://www.linkedin.com/posts/shivani-kadam-_analysisusingsql-musicdataset-dataanalysis-activity-7114669941701644291-F0G8?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mywork3.jpeg">
+                    <div class="layer">
+                        <h3>Dashboard using power BI </h3>
+                        <p>Created Dashboard using power BI and generated required insights from Online Retail Dataset.</p>
+                        <a href="https://www.linkedin.com/posts/shivani-kadam-_powerbi-dataanalytics-dataanalyst-activity-7025474527925014528-f64m?utm_source=share&utm_medium=member_desktop"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+
+    </div>
+    <!-- ---------certificates------------- -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>SQL For Data Science</h2>
+                    <p></p>
+                    <a href="https://drive.google.com/file/d/1F3eVpTr6X19_8QX34-4dzxCCtGI_NYcV/view?usp=sharing">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analytics Bootcamp by 5 Minutes Engineering</h2>
+                    <p></p>
+                    <a href="https://drive.google.com/file/d/1M5aLhm1Ci-djlRDR7LEWGwjobGmh-FzQ/view?usp=sharing">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>1 Month Traning in Machine Learning</h2>
+                    <p></p>
+                    <a href="https://drive.google.com/file/d/1d6N0gLUXo8-4O2zdbu0WzJhs5-jbf5Fl/view?usp=sharing">View Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-hackerrank"></i>
+                    <h2>Advanced SQL (Hackerrank)</h2>
+                    <p></p>
+                    <a href="https://www.hackerrank.com/certificates/0ebbc903d018">View Certificate</a>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------------contact-------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shivanikadam8446@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9766528035</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/shivani1022"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shivani-kadam-"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/shivani_kadam8446/"><i class="fa-brands fa-square-instagram"></i></a>
+
+
+
+                    </div>
+                    <a href="./cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name"required>
+                        <input type="email" name="email" placeholder="Your Email"required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Shivani Kadam. </p>
+        </div>
+    </div>
+
+    <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+</script>
+<script>
+    var sidemeu=document.getElementById(sidemenu);
+    function openmenu()
+    {
+        sidemeu.style.right="0";
+
+    }
+    function closemenu()
+    {
+        sidemeu.style.right="-200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx8TZMarQuHqAabsayA7LnvDgBP-kQtLCwNY36nVgCw-6P1U4NKx_EF8dCawEazeprD_w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully.."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
